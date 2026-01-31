@@ -18,7 +18,12 @@ book/src/puzzle_*/media/videos/*/partial_movie_files/
 # Vercel
 .vercel
 
+# Mojo profiling and trace files
+*.trace.json.*
+kgen.trace.json
+
 # Mojo artifacts
+.mojo_cache/
 *.mojopkg
 
 # rules
